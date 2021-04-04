@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 // not used, this is default react app page
 
@@ -20,9 +20,9 @@ function App() {
           Learn React
         </a>
       </header>
-      <p>
+      {/* <p>
         This project is being built on top of <a href="https://www.youtube.com/watch?v=lXtdDx9RGzM">this example.</a>
-      </p>
+      </p> */}
     </div>
   );
 }
