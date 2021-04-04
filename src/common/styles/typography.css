@@ -1,0 +1,54 @@
+a {
+  color: orange;
+}
+
+.page-title {
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.post-index {
+  font-size: large;
+  font-weight: 900;
+  color: orangered;
+  background-color: peachpuff;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.post-content-header {
+  font-size: medium;
+  font-weight: 300;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display: inline;
+}
+
+.post-content-name-text {
+  font-size: large;
+  font-weight: 500;
+  display: inline-block;
+  background-color: lightblue;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.post-content-size-text {
+  font-size: large;
+  font-weight: 700;
+  display: inline-block;
+  background-color: lightgreen;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.post-content-body-text {
+  font-size: large;
+  font-weight: 700;
+  display: inline-block;
+  background-color: yellow;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
