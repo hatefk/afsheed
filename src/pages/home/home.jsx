@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import PostGrid from "../../components/posts-grid/post-grid.component";
-// import { useGetPosts } from "../../hooks/posts/usePosts";
+import "./App.css";
+import { API } from "aws-amplify";
+import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
+import { listNotes } from "./graphql/queries";
+import {
+  // TODO: Import correct mutations and queries from graphql mutations and queries
+  createNote as createNoteMutation,
+  deleteNote as deleteNoteMutation,
+} from "./graphql/mutations";
+
+const initialFormState = { name: "", description: "" };
+
 function Home() {
   const myLocalTestPostList = [
     { id: 1, name: "Hatef", size: "XL" },
